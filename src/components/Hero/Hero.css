@@ -1,0 +1,84 @@
+.hero {
+  background: #ff7aac;
+}
+
+.hero__container {
+  min-height: 457px;
+  margin: 0 40px;
+  padding: 64px;
+  padding-left: 96px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero__container > div {
+  flex: 1;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 320px;
+  height: 56px;
+  background: #121117;
+  padding: 16px 32px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.hero__button span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero__button--icon {
+  font-size: 18px;
+}
+
+.hero__title {
+  color: #121117;
+  font-size: 64px;
+  line-height: 68px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+}
+
+.hero__right {
+  position: relative;
+}
+
+.hero__image {
+  border-radius: 8px;
+}
+
+.hero__image:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.hero__image:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.hero__image:last-child {
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

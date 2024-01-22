@@ -1,0 +1,39 @@
+.stats {
+}
+
+.stats__container {
+  margin: 64px 0;
+  padding: 0 16px;
+}
+
+.stats__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats__item {
+  text-align: center;
+  padding: 8px;
+}
+
+.stats__vote {
+  display: flex;
+  gap: 4px;
+}
+
+.stats__amount--number {
+  font-size: 32px;
+  color: #121117;
+  font-weight: 800;
+}
+
+.stats__desc--text {
+  font-size: 20px;
+  color: #6a697c;
+}
+
+.stats__amount--icon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}

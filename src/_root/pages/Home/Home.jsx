@@ -1,9 +1,13 @@
-import React from 'react'
+import Hero from '../../../components/Hero/Hero';
+import Stats from '../../../components/Stats/Stats';
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Hero />
+      <Stats />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
